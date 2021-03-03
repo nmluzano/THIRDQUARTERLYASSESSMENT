@@ -4,6 +4,6 @@
     xmlns:m="clr-namespace:Microsoft.Maps.MapControl.WPF;assembly=Microsoft.Maps.MapControl.WPF">
     <Grid>
         <m:Map CredentialsProvider="RmyxlbEVZSzQyXwmATSl~03y4JZV5nKXzunRpEE8Xhw~AkoNdI3YJfIt-GFi1LlnjouTfpVuNhJl2RMoNDZKgjeAYAXSNhYAPSEmlh83-Niy" x:Name="myMap" Margin="0,75,118,0" />
-        <ComboBox HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="632" Height="60"/>
+        <ComboBox x:Name="cboMunicipalities" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="632" Height="60" SelectionChanged="ComboBox_SelectionChanged"/>
     </Grid>
 </Window >
