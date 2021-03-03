@@ -1,12 +1,9 @@
 ﻿<Window x:Class="NicoleLuzano.ThirdQuarterlyAssessment.MainWindow"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:NicoleLuzano.ThirdQuarterlyAssessment"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid Margin="0,0,34,53">
-        
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:m="clr-namespace:Microsoft.Maps.MapControl.WPF;assembly=Microsoft.Maps.MapControl.WPF">
+    <Grid>
+        <m:Map CredentialsProvider="RmyxlbEVZSzQyXwmATSl~03y4JZV5nKXzunRpEE8Xhw~AkoNdI3YJfIt-GFi1LlnjouTfpVuNhJl2RMoNDZKgjeAYAXSNhYAPSEmlh83-Niy" x:Name="myMap" Margin="0,75,118,0" />
+        <ComboBox HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="632" Height="60"/>
     </Grid>
-</Window>
+</Window >
